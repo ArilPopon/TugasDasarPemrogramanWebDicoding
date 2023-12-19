@@ -1,2 +1,1 @@
-#Tugas Dasar Pemrograman Web Dicoding
-Saya buat karena deadline mepet ehehe
+Tugas Dasar Pemrograman Web Dicoding Saya buat karena deadline mepet ehehe

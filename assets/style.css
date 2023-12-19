@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  background: #2980b9;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 90%;
+  background: #2980b9;
+  margin: auto;
+}
+nav .navbar .logo a {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 600;
+  text-decoration: none;
+}
+nav .navbar .menu {
+  display: flex;
+}
+.navbar .menu li {
+  list-style: none;
+  margin: 0 15px;
+}
+.navbar .menu li a {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* Main */
+main {
+  width: 100%;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Konten */
+.konten {
+  width: 70%;
+}
+
+/* Article */
+article {
+  width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+article > section {
+  margin-left: 20px;
+}
+
+article > img {
+  height: 100%;
+}
+
+.title {
+  color: #2980b9;
+  font-size: 2rem;
+}
+
+/* Button Load More */
+
+#loadMore {
+  text-decoration: none;
+  width: 150px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: #2980b9;
+  transition: 0.3s;
+}
+#loadMore:hover {
+  color: #2980b9;
+  background-color: #fff;
+  border: 1px solid #2980b9;
+  text-decoration: none;
+}
+
+/* Aside */
+aside {
+  width: 40%;
+}
+
+.popularAnimals {
+  text-align: center;
+}
+
+.popularAnimals > h4 {
+  margin: 10px 0 5px 0;
+}
+
+.popularAnimals > Ul {
+  list-style: none;
+}
+
+.popularAnimals > ul > li {
+  margin-bottom: 10px;
+}
+
+.popularAnimals > ul > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+.popularAnimals > ul > li > a > img {
+  width: 100%;
+}
+
+.popularblogs > h4 {
+  margin: 10px 0 5px 0;
+}
+
+.popularblogs > ul {
+  list-style: none;
+}
+
+.popularblogs > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Search */
+.search > p {
+  height: 30px;
+  background-color: #2980b9;
+  color: #fff;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search > #searchForm {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+/* Footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  background: #2980b9;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > a {
+  text-decoration: none;
+  color: #fff;
+}
